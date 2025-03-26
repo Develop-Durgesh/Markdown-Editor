@@ -1,0 +1,120 @@
+@import 'github-markdown-css/github-markdown.css';
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+#App {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Prompt', sans-serif;
+}
+
+.code-width {
+    width: 50%;
+}
+
+#code-block {
+    display: flex;
+    flex-direction: row;
+    height: calc(100% - 2.15rem);
+    position: relative;
+}
+
+.code-text {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.mark-block {
+    background-color: #0d1117;
+    color: #E6EDF3;
+    padding: calc(1rem + 1px);
+    overflow: auto;
+}
+
+strong {
+    font-weight: 700 !important;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    border-bottom: 4px solid #21262d !important;
+}
+
+button {
+    cursor: pointer;
+}
+
+.coverbox {
+    overflow: auto;
+}
+
+
+.btn-img {
+    height: 20px;
+    width: 20px;
+}
+
+#options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.btn {
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+    position: relative;
+    margin: 0.3rem 0.2rem 0 0.2rem;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.what {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    font-weight: 100;
+    color: rgb(60, 60, 60) ;
+    display: none;
+    white-space: nowrap;
+}
+
+.btn:hover .what {
+    display: block;
+}
+
+.github-icon {
+    height: 30px;
+    right: 10%;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+#nav {
+    padding: 0.2rem;
+}
+
+#copy-btn {
+    color: white;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#copy-icon {
+    filter: invert(100%);
+    height: 30px;
+}
+
+#scroll-lock {
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.floating-optn {
+    margin-top: 0.5rem;
+    margin-right: 0.8rem;
+}
